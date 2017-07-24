@@ -16,22 +16,33 @@ Input Border Bottom (Focus): #967343
 
 body {
   margin: auto;
+  background-color: #F2F1E9;
 }
 header {
   display: flex;
+  background: #FFFFFF;
 }
-nav {
-background-color: #FFFFFF;
-color: #131511;
-border-bottom:
-}
+
 nav a {
   color: #131511;
   l
 }
-nav img {
-
+nav {
+  align-items: center;
+  margin: 0 auto;
 }
-section {
+ul {
   display: flex;
+  align-content: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+li {
+    margin: 30px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  align-self: center;
 }
