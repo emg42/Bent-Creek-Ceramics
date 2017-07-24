@@ -51,12 +51,31 @@ li {
 }
 /*this is the wrapper*/
 .wrapper {
-  text-align: center;
+width: 80%;
+margin: auto;
+display: flex;
+flex-direction: column;
 }
 /*here is the top article*/
-section.top-article {
+.top-article {
+  display: flex;
+  flex-direction: column;
+}
+.ta-part1 {
+  display: flex;
+}
+.ta-part1 p {
+
+}
+.top-article img {
+  width: 90px;
+  height: 90px;
+
+}
+.top-article h2 {
   text-align: center;
 }
+
 /*here is the footer */
 footer {
 background-color: #2C2F27;
