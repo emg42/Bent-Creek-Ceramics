@@ -51,7 +51,7 @@ li {
 }
 /*this is the wrapper*/
 .wrapper {
-width: 80%;
+
 margin: auto;
 display: flex;
 flex-direction: column;
@@ -60,9 +60,13 @@ flex-direction: column;
 .top-article {
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin: auto;
+
 }
 .ta-part1 {
   display: flex;
+
 }
 .ta-part1 p {
 
@@ -75,7 +79,32 @@ flex-direction: column;
 .top-article h2 {
   text-align: center;
 }
+/*here is the banner*/
+.banner {
+  background-image: url(Images/product-1.jpg);
+  width: 100%;
+  /* margin: 0 -150px; */
+  height: 300px;
+  background-position: -1px -427px;
+  background-repeat: no-repeat;
+  color: white;
 
+}
+/*here is the bottom article*/
+.bottom-article {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-article img {
+  height: 30px;
+  width:  30px;
+}
+td, th {
+  border: 2px solid black;
+  margin: 0px;
+}
 /*here is the footer */
 footer {
 background-color: #2C2F27;
