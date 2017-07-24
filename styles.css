@@ -13,3 +13,25 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
+
+body {
+  margin: auto;
+}
+header {
+  display: flex;
+}
+nav {
+background-color: #FFFFFF;
+color: #131511;
+border-bottom:
+}
+nav a {
+  color: #131511;
+  l
+}
+nav img {
+
+}
+section {
+  display: flex;
+}
