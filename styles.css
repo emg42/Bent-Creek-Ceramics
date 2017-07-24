@@ -25,7 +25,6 @@ header {
 
 nav a {
   color: #131511;
-  l
 }
 nav {
   align-items: center;
@@ -39,10 +38,114 @@ ul {
   margin: 0px;
 }
 li {
-    margin: 30px;
+    margin: 15px 30px;
+}
+.home-link > a {
+  color: #968772;
 }
 .logo {
   height: 30px;
   width: 30px;
   align-self: center;
+}
+/*going on to Main section*/
+.main-content {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 49px;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+}
+h3 {
+
+  font-size: 38px;
+  font-family: 'Merriweather', serif;
+  font-weight: 200;
+
+}
+first-row {
+  display: flex;
+}
+second-row {
+  display: flex;
+}
+/*photo section*/
+.first-row > div {
+margin: 10px;
+}
+.first-row {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.second-row > div {
+margin: 10px;
+}
+.second-row {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+
+}
+.endless-possibilities {
+  background-image: url(Images/product-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
+}
+.sets {
+  background-image: url(Images/product-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+}
+.textures {
+  background-image: url(Images/product-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+}
+.tea-time {
+  background-image: url(Images/product-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+}
+.jars-and-containers {
+  background-image: url(Images/product-5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+}
+.wasabi-and-saki {
+  background-image: url(Images/product-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 30%;
+}
+.sippin-on-sunshine {
+  background-image: url(Images/product-7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 20%;
+}
+/*Text inside the pictures*/
+div > p {
+  background-color: #2C2F27;
+  color: #F2F1E8;
+  position: absolute;
+  margin-top: 229px;
+  padding: 10px;
+}
+/*here is the footer*/
+footer {
+background-color: #2C2F27;
+color: #FFFFFF;
+padding: 20px;
+margin-top: 10px;
 }
