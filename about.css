@@ -14,7 +14,7 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
 
-
+/*here is the header*/
 body {
   margin: auto;
   background-color: #F2F1E9;
@@ -48,4 +48,19 @@ li {
   height: 30px;
   width: 30px;
   align-self: center;
+}
+/*this is the wrapper*/
+.wrapper {
+  text-align: center;
+}
+/*here is the top article*/
+section.top-article {
+  text-align: center;
+}
+/*here is the footer */
+footer {
+background-color: #2C2F27;
+color: #FFFFFF;
+padding: 20px;
+margin-top: 10px;
 }
