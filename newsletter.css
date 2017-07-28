@@ -70,7 +70,7 @@ section.main-newsletter {
    background-color: #FFFFFF;
    margin: auto;
    display: flex;
-   margin-top: 150px;
+   margin-top: 152px;
    flex-wrap: wrap;
    justify-content: center;
    padding: 0px 20px;
@@ -98,26 +98,32 @@ font-family: Merriweather', serif;
   /* justify-content: center; */
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .name-input {
   width: 100%;
   /* margin: 0; */
-  text-align: center;
+  text-align: left;
   padding-bottom: 12px;
-  border-bottom: 3px solid #968772;
+  border-bottom: 2px solid #968772;
+  margin-bottom: 10px;
 }
 .email-input {
   width: 100%;
   margin: 0px 0px 10px 0;
-  text-align: center;
-  padding-bottom: 12px;
-  border-bottom: 3px solid #968772;
-}
-label {
   text-align: left;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #968772;
+  margin-bottom: 32px;
+}
+input {
+  border: none;
+  /*text-align: left;*/
 }
 button {
   width: 25%;
   background-color: #968772;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 100;
 }
