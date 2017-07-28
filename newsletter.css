@@ -71,8 +71,26 @@ section.main-newsletter {
    margin: auto;
    display: flex;
    margin-top: 181px;
+   flex-wrap: wrap;
+   justify-content: center;
+}
 
  }
 .newsletter-form h2 {
   /*flex-basis: 100%;*/
+margin: 0px;
+text-align: center;
+}
+.newsletter-form p {
+  width: 50%:
+}
+.btn-container {
+  width: 100%;
+  /* justify-content: center; */
+  margin: 0 auto;
+  text-align: center;
+}
+button {
+  width: 25%;
+  background-color: #968772;
 }
