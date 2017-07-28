@@ -17,7 +17,10 @@ Input Border Bottom (Focus): #967343
 
 body {
   margin: auto;
-  background-color: #F2F1E9;
+  /*background-color: #F2F1E9;*/
+  background-image: url("Images/background-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 header {
   display: flex;
@@ -49,13 +52,27 @@ li {
   width: 30px;
   align-self: center;
 }
-/*this is the wrapper*/
-.newsletter-wrapper {
-  width: 100%;
-}
-/*this is the newsletter-form*/
- .newsletter-form {
-  width: 50%;
-  background-position: #FFFFFF;
 
+/*this is the main newsletter section*/
+.wrapper {
+  display: flex;
+}
+
+section.main-newsletter {
+  margin: 0 auto;
+  display: flex;
+
+}
+
+ .newsletter-form {
+   width: 50%;
+   height: 50%;
+   background-color: #FFFFFF;
+   margin: auto;
+   display: flex;
+   margin-top: 181px;
+
+ }
+.newsletter-form h2 {
+  /*flex-basis: 100%;*/
 }
