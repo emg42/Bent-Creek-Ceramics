@@ -65,33 +65,57 @@ section.main-newsletter {
 }
 
  .newsletter-form {
-   width: 50%;
-   height: 50%;
+   width: 60%;
+   height: 60%;
    background-color: #FFFFFF;
    margin: auto;
    display: flex;
-   margin-top: 181px;
+   margin-top: 150px;
    flex-wrap: wrap;
    justify-content: center;
+   padding: 0px 20px;
 }
 
  }
 .newsletter-form h2 {
   /*flex-basis: 100%;*/
-margin: 0px;
+margin: 10px 0px 0px 0px;
 text-align: center;
+font-weight: 100;
+font-family: Merriweather', serif;
 }
 .newsletter-form p {
-  width: 50%:
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+
+
 }
 .btn-container {
   width: 100%;
   /* justify-content: center; */
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 30px;
 }
-.name {
-  width:100%;
+.name-input {
+  width: 100%;
+  /* margin: 0; */
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #968772;
+}
+.email-input {
+  width: 100%;
+  margin: 0px 0px 10px 0;
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 3px solid #968772;
+}
+label {
+  text-align: left;
 }
 button {
   width: 25%;
